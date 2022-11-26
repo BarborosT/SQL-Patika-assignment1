@@ -1,4 +1,5 @@
 # SQL-Patika-assignment1
+
 1. Film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız.
 
 `Select title, description From Film`
@@ -17,7 +18,7 @@
 
 5. Film tablosundaki uzunluğu(length) 50 ten büyük OLMAYIP aynı zamanda rental_rate değeri 2.99 veya 4.99 OLMAYAN verileri sıralayınız.
 
-`Select lastname From Film NOT(length > 50 AND rental_rate = 2.99 or rental_rate = 4.99 ) `
+`Select lastname From Film NOT length > 50 AND (rental_rate = 2.99 or NOT rental_rate = 4.99 ) `
 
 
 
