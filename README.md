@@ -1,3 +1,4 @@
+https://app.patika.dev/barborost </br>
 # SQL-Patika-assignment1
 
 1. Film tablosunda bulunan title ve description sütunlarındaki verileri sıralayınız.
